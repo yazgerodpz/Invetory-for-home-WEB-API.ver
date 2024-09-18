@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|d:\\yazryr\\documentos\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|d:\\yazryr\\documentos\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\models\\cattypestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:models\\cattypestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 160,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpaquesController.cs",
+              "DocumentMoniker": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpaquesController.cs",
+              "ToolTip": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
+              "RelativeToolTip": "Controllers\\EmpaquesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA1wDkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T03:55:45.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatTypeStock.cs",
+              "DocumentMoniker": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Models\\CatTypeStock.cs",
+              "RelativeDocumentMoniker": "Models\\CatTypeStock.cs",
+              "ToolTip": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Models\\CatTypeStock.cs",
+              "RelativeToolTip": "Models\\CatTypeStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T05:19:01.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Invetory-for-home-WEB-API.ver.props" />
+</Project>
