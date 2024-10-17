@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IS6TeUZYWJo=",
+  "dgSpecHash": "dWI+tQGEQyo=",
   "success": true,
-  "projectFilePath": "D:\\Yazryr\\Documentos\\Programación\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver.csproj",
+  "projectFilePath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programación\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yazryr\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Yazryr\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
@@ -233,11 +233,7 @@
     "C:\\Users\\Yazryr\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Yazryr\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Yazryr\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+    "C:\\Users\\Yazryr\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

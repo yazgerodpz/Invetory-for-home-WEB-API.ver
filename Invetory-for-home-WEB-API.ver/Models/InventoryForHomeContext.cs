@@ -23,7 +23,7 @@ public partial class InventoryForHomeContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-IMJ2A1A; Database=InventoryForHome; User Id=yazryr; Password=12345678; TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=localhost; Database=InventoryForHome; User Id=yazryr2; Password=12345678; TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -32,6 +32,8 @@ public partial class InventoryForHomeContext : DbContext
             entity.HasKey(e => e.IdTypePrioritary);
 
             entity.ToTable("CatTypePrioritary");
+
+            //entity.Property(e => e.Description).HasColumnName("_Description");
         });
 
         modelBuilder.Entity<CatTypeStock>(entity =>

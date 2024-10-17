@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\",
+  "WorkspaceRootPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|d:\\yazryr\\documentos\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|d:\\yazryr\\documentos\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\models\\cattypestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:models\\cattypestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\controllers\\prioridadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\prioridadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmpaquesController.cs",
-              "DocumentMoniker": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmpaquesController.cs",
-              "ToolTip": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
               "RelativeToolTip": "Controllers\\EmpaquesController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA1wDkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowFwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T03:55:45.371Z",
+              "WhenOpened": "2024-10-16T06:11:53.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CatTypeStock.cs",
-              "DocumentMoniker": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Models\\CatTypeStock.cs",
-              "RelativeDocumentMoniker": "Models\\CatTypeStock.cs",
-              "ToolTip": "D:\\Yazryr\\Documentos\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Models\\CatTypeStock.cs",
-              "RelativeToolTip": "Models\\CatTypeStock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PrioridadesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrioridadesController.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
+              "RelativeToolTip": "Controllers\\PrioridadesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:19:01.39Z",
+              "WhenOpened": "2024-10-17T03:12:43.596Z",
               "EditorCaption": ""
             }
           ]

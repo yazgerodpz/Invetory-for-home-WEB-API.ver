@@ -1,28 +1,6 @@
 [
   {
     "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.EmpaquesController",
-    "Method": "Delete",
-    "RelativePath": "api/Empaques/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.EmpaquesController",
     "Method": "CrearEmp",
     "RelativePath": "api/Empaques/CrearEmp/nombreEmpaque",
     "HttpMethod": "POST",
@@ -33,6 +11,22 @@
         "Name": "nombreEmpaque",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.EmpaquesController",
+    "Method": "Delete",
+    "RelativePath": "api/Empaques/DelEmpById/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -203,103 +197,8 @@
   },
   {
     "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
-    "Method": "Get",
-    "RelativePath": "api/Prioridades",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
-    "Method": "Post",
-    "RelativePath": "api/Prioridades",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
-    "Method": "Get",
-    "RelativePath": "api/Prioridades/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
-    "Method": "Put",
-    "RelativePath": "api/Prioridades/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
     "Method": "Delete",
-    "RelativePath": "api/Prioridades/{id}",
+    "RelativePath": "api/Prioridades",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -307,7 +206,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -319,24 +218,66 @@
     ]
   },
   {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
+    "Method": "CrearPrio",
+    "RelativePath": "api/Prioridades/CrearPrios/nuevoReglaPrio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevoReglaPrio",
+        "Type": "Invetory_for_home_WEB_API.ver.Models.CatTypePrioritary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
+    "Method": "EditPrio",
+    "RelativePath": "api/Prioridades/EditPrios/ActReglaPrio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ActReglaPrio",
+        "Type": "Invetory_for_home_WEB_API.ver.Models.CatTypePrioritary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
+    "Method": "ReadPrios",
+    "RelativePath": "api/Prioridades/ReadPrios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
+    "Method": "ReadPrioById",
+    "RelativePath": "api/Prioridades/ReadPriosById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Invetory_for_home_WEB_API.ver.WeatherForecast, Invetory-for-home-WEB-API.ver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

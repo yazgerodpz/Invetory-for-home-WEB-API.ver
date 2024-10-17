@@ -10,6 +10,7 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
     [ApiController]
     public class EmpaquesController : ControllerBase
     {
+        //Tiene que tener una instancia privada del db context
         private InventoryForHomeContext _context;
 
         //COnstructor o funciono de incializacion que instancie el db context
@@ -70,9 +71,26 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
         }
 
         // DELETE api/<EmpaquesController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        [Route("DelEmpById/{id}")]
+        public JsonResult Delete(int id)
         {
+            //Obtener el elemento
+            var QryResult = _context.CatTypeStocks.Find(id);
+            //Validar que existe
+            if (QryResult != null)
+            {
+                //Eliminar el elemento de la tabla
+                _context.CatTypeStocks.Remove(QryResult);
+                //Guardar cambios
+                _context.SaveChanges();
+                //Rregresar ok
+                return new JsonResult(new { Success = true, Data = string.Empty });
+            }
+            else
+            {
+                return new JsonResult(new { Success = false, Data = "Error: El elemento a borrar no existe." });
+            }
         }
     }
 }

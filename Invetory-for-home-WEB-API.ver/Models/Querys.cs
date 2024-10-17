@@ -15,7 +15,7 @@ namespace Invetory_for_home_WEB_API.ver.Models
         /// <param name="_PDate">Fecha de compra</param>
         /// <param name="_EDate">Fecha de expiracion</param>
         /// <returns></returns>
-         //Nuevo Articulo
+        //Nuevo Articulo
         public static async Task<bool> CrearNArtAsync(string _NuevoArtículo, string _numstock, string _TypePN, string _TypeSN, DateTime _PDate, DateTime _EDate)
         {
             try

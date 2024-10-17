@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Invetory_for_home_WEB_API.ver.Models;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,34 +9,73 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
     [ApiController]
     public class PrioridadesController : ControllerBase
     {
+        //Tiene que tener una instancia privada del db context
+        private InventoryForHomeContext _context;
+
+        //COnstructor o funciono de incializacion que instancie el db context
+        public PrioridadesController(InventoryForHomeContext inventoryForHomeContext)
+        {
+            _context = inventoryForHomeContext;
+        }
         // GET: api/<PrioridadesController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Route("ReadPrios")]
+        public JsonResult ReadPrios()
         {
-            return new string[] { "value1", "value2" };
+            var QrysResult = _context.CatTypePrioritaries.ToList();
+            return new JsonResult(new { Success = true, Data = QrysResult });
         }
 
         // GET api/<PrioridadesController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("ReadPriosById/{id}")]
+        public JsonResult ReadPrioById(int id)
         {
-            return "value";
+            var QrysResult = _context.CatTypePrioritaries.Find(id);
+            return new JsonResult(new { Success = true, Data = QrysResult });
         }
 
         // POST api/<PrioridadesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        [Route("CrearPrios/nuevoReglaPrio")]
+        public JsonResult CrearPrio([FromBody] CatTypePrioritary nuevoReglaPrio)
         {
+            CatTypePrioritary nuevoReglaPriority = new()
+            {
+                IdTypePrioritary = 0,  // Asigna un ID nuevo si es necesario.
+                TypePrioritaryName = nuevoReglaPrio.TypePrioritaryName,  // Utiliza el nombre del objeto recibido.
+                _Description = nuevoReglaPrio._Description,
+                Active = true,  // Utiliza el estado activo del objeto recibido.
+            };
+
+            _context.CatTypePrioritaries.Add(nuevoReglaPriority);
+            _context.SaveChanges();
+
+            return new JsonResult(new { Success = true, Data = nuevoReglaPriority });
         }
 
         // PUT api/<PrioridadesController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPost]
+        [Route("EditPrios/ActReglaPrio")]
+        public JsonResult EditPrio(int id, [FromBody] CatTypePrioritary ActReglaPrio)
         {
+            CatTypePrioritary editarReglaP = new()
+            {
+                IdTypePrioritary = ActReglaPrio.IdTypePrioritary,  // Asigna un ID nuevo si es necesario.
+                TypePrioritaryName = ActReglaPrio.TypePrioritaryName,  // Utiliza el nombre del objeto recibido.
+                _Description = ActReglaPrio._Description,
+                Active = true,  // Utiliza el estado activo del objeto recibido.
+            };
+
+            _context.CatTypePrioritaries.Update(editarReglaP);
+            _context.SaveChanges();
+
+            return new JsonResult(new { Success = true, Data = editarReglaP });
         }
 
         // DELETE api/<PrioridadesController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete]
+
         public void Delete(int id)
         {
         }
