@@ -80,50 +80,56 @@
   },
   {
     "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
-    "Method": "Get",
-    "RelativePath": "api/Inventario",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
-    "Method": "Post",
-    "RelativePath": "api/Inventario",
+    "Method": "CrearInv",
+    "RelativePath": "api/Inventario/CrearInv/nuevoItem",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "nuevoItem",
+        "Type": "Invetory_for_home_WEB_API.ver.Models.Item",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
-    "Method": "Get",
-    "RelativePath": "api/Inventario/{id}",
+    "Method": "DeleteArt",
+    "RelativePath": "api/Inventario/DeleteArt/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
+    "Method": "EditarInv",
+    "RelativePath": "api/Inventario/EditarInv/actItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "actItem",
+        "Type": "Invetory_for_home_WEB_API.ver.Models.Item",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
+    "Method": "ReadInvById",
+    "RelativePath": "api/Inventario/ReadInvById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -134,88 +140,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
-    "Method": "Put",
-    "RelativePath": "api/Inventario/{id}",
-    "HttpMethod": "PUT",
+    "Method": "ReadInvs",
+    "RelativePath": "api/Inventario/ReadReadInvs",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
-    "Method": "Delete",
-    "RelativePath": "api/Inventario/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
-    "Method": "Delete",
-    "RelativePath": "api/Prioridades",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
@@ -228,6 +163,22 @@
       {
         "Name": "nuevoReglaPrio",
         "Type": "Invetory_for_home_WEB_API.ver.Models.CatTypePrioritary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.PrioridadesController",
+    "Method": "DeletePrio",
+    "RelativePath": "api/Prioridades/DelPriosById/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

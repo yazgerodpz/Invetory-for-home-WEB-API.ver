@@ -75,9 +75,26 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
 
         // DELETE api/<PrioridadesController>/5
         [HttpDelete]
-
-        public void Delete(int id)
+        [Route("DelPriosById/{id}")]
+        public JsonResult DeletePrio(int id)
         {
+            //Variable para obtener el elemento
+            var QrysResult = _context.CatTypePrioritaries.Find(id);
+            //verificar (validar) que existe
+            if (QrysResult != null)
+            {
+                //Eliminar el elemento de la tabla
+                _context.CatTypePrioritaries.Remove(QrysResult);
+                //Guardar cambios
+                _context.SaveChanges();
+                //Regresar ok
+                return new JsonResult(new { Success = true, Data = string.Empty });
+
+            }
+            else
+            {
+                return new JsonResult(new { Success = false, Data = "Error: El elemento a borrar no existe." });
+            }
         }
     }
 }
