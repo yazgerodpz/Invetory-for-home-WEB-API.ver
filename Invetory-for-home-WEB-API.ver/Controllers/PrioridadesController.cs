@@ -57,7 +57,7 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
         // PUT api/<PrioridadesController>/5
         [HttpPost]
         [Route("EditPrios/ActReglaPrio")]
-        public JsonResult EditPrio(int id, [FromBody] CatTypePrioritary ActReglaPrio)
+        public JsonResult EditPrio([FromBody] CatTypePrioritary ActReglaPrio)
         {
             CatTypePrioritary editarReglaP = new()
             {

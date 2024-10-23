@@ -40,11 +40,6 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "nuevoItem",
         "Type": "Invetory_for_home_WEB_API.ver.Models.CatTypeStock",
         "IsRequired": true
@@ -145,7 +140,7 @@
   {
     "ContainingType": "Invetory_for_home_WEB_API.ver.Controllers.InventarioController",
     "Method": "ReadInvs",
-    "RelativePath": "api/Inventario/ReadReadInvs",
+    "RelativePath": "api/Inventario/ReadInvs",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -192,11 +187,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
       {
         "Name": "ActReglaPrio",
         "Type": "Invetory_for_home_WEB_API.ver.Models.CatTypePrioritary",

@@ -56,7 +56,7 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
 
         [HttpPost]
         [Route("EditEmp/nuevoItem")]
-        public JsonResult EditEmp(int id, [FromBody] CatTypeStock nuevoItem)
+        public JsonResult EditEmp([FromBody] CatTypeStock nuevoItem)
         {
             CatTypeStock editarItem = new()
             {

@@ -21,7 +21,7 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
 
         // GET: api/<InventarioController>
         [HttpGet]
-        [Route("ReadReadInvs")]
+        [Route("ReadInvs")]
         public JsonResult ReadInvs()
         {
             var QrysResult = _context.Items.ToList();

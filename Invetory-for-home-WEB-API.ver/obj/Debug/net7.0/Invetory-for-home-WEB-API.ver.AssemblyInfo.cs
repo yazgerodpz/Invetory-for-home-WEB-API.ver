@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Invetory-for-home-WEB-API.ver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77f9f6d79723164d774042bf6c750346e15dcdc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b4cb7ab2ef2ac0123a3ab42533a57f47ac0f765")]
 [assembly: System.Reflection.AssemblyProductAttribute("Invetory-for-home-WEB-API.ver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Invetory-for-home-WEB-API.ver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
