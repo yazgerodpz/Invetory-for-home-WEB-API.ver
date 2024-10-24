@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\",
+  "WorkspaceRootPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\controllers\\prioridadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\controllers\\prioridadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\prioridadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-vue.ver\\invetory-for-home-web-api.ver\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmpaquesController.cs",
-              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmpaquesController.cs",
-              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
               "RelativeToolTip": "Controllers\\EmpaquesController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAwwDAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T06:11:53.945Z",
               "EditorCaption": ""
@@ -41,11 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PrioridadesController.cs",
-              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
               "RelativeDocumentMoniker": "Controllers\\PrioridadesController.cs",
-              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
               "RelativeToolTip": "Controllers\\PrioridadesController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAADwvzsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T03:12:43.596Z",
               "EditorCaption": ""
@@ -54,11 +54,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "InventarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\InventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\InventarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventarioController.cs",
-              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\InventarioController.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\InventarioController.cs",
               "RelativeToolTip": "Controllers\\InventarioController.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAowBcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwDcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T05:11:40.244Z",
               "EditorCaption": ""

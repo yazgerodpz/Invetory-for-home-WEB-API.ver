@@ -11779,11 +11779,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programación\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver.csproj",
+      "projectUniqueName": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programación\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver.csproj",
       "projectName": "Invetory-for-home-WEB-API.ver",
-      "projectPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programación\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver.csproj",
+      "projectPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programación\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver.csproj",
       "packagesPath": "C:\\Users\\Yazryr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programación\\Invetory-for-home-WEB-VUE.ver\\Invetory-for-home-WEB-API.ver\\obj\\",
+      "outputPath": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programación\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

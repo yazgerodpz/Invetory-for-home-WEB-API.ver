@@ -54,8 +54,6 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
         public JsonResult ReadInvById(int id)
         {
             var QrysResult = _context.Items.Find(id);
-
-
             // Devolver la respuesta con el nuevo Item y su relación con CatTypeStock
             return new JsonResult(new { Success = true, Data = QrysResult });
         }
