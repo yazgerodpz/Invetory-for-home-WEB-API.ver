@@ -1,2 +1,2 @@
-# Invetory-for-home-WEB-VUE.ver
-versión web en VUE de la aplicación Inventari for home
+# Invetory-for-home-WEB-API.ver
+API para versión web de la aplicación Inventari for home
