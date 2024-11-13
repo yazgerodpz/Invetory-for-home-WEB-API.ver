@@ -34,20 +34,27 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
         public JsonResult ReadEmpById(int id)
         {
             var QryResult = _context.CatTypeStocks.Find(id);
-            return new JsonResult(new { Success = true, Data = QryResult });
+            if(QryResult is null)
+            {
+                return new JsonResult(new { Success = false, Data = QryResult });
+
+            }
+                return new JsonResult(new { Success = true, Data = QryResult });
         }
 
         // POST api/<EmpaquesController>
         [HttpPost]
         [Route("CrearEmp/nombreEmpaque")]
-        public JsonResult CrearEmp(string nombreEmpaque)
+        public JsonResult CrearEmp([FromBody] CatTypeStock nombreEmpaque)
         {
-            CatTypeStock nuevoEmpaque = new()
-            {
-                IdTypeStock = 0,
-                TypeStockName = nombreEmpaque,
-                Active = true,
-            };
+            //CatTypeStock nuevoEmpaque = new()
+            //{
+            //    IdTypeStock = 0,
+            //    TypeStockName = nombreEmpaque,
+            //    Active = true,
+            //};
+
+            CatTypeStock nuevoEmpaque = nombreEmpaque;
 
             _context.CatTypeStocks.Add(nuevoEmpaque);
             _context.SaveChanges();

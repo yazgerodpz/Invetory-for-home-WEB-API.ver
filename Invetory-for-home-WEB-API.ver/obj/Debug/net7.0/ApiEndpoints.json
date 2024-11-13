@@ -9,8 +9,8 @@
     "Parameters": [
       {
         "Name": "nombreEmpaque",
-        "Type": "System.String",
-        "IsRequired": false
+        "Type": "Invetory_for_home_WEB_API.ver.Models.CatTypeStock",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

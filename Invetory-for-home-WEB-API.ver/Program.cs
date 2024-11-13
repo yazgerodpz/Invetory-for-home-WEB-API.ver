@@ -15,6 +15,17 @@ builder.Services.AddDbContext<InventoryForHomeContext>(options =>
 
 // Add services to the container.
 
+// Añadir servicios al contenedor.
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin()  // Permitir cualquier origen
+               .AllowAnyMethod()  // Permitir cualquier método (GET, POST, etc.)
+               .AllowAnyHeader(); // Permitir cualquier encabezado
+    });
+});
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -23,6 +34,8 @@ builder.Services.AddSwaggerGen();
 //builder.Services.AddDbContext<InventoryForHomeContext>();
 
 var app = builder.Build();
+
+app.UseCors("AllowAllOrigins");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
