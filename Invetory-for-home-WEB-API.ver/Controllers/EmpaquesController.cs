@@ -69,7 +69,7 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
             {
                 IdTypeStock = nuevoItem.IdTypeStock,
                 TypeStockName = nuevoItem.TypeStockName,
-                Active = true,
+                Active = nuevoItem.Active,
             };
 
             _context.CatTypeStocks.Update(editarItem);

@@ -68,7 +68,7 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
                 IdTypePrioritary = ActReglaPrio.IdTypePrioritary,  // Asigna un ID nuevo si es necesario.
                 TypePrioritaryName = ActReglaPrio.TypePrioritaryName,  // Utiliza el nombre del objeto recibido.
                 _Description = ActReglaPrio._Description,
-                Active = true,  // Utiliza el estado activo del objeto recibido.
+                Active = ActReglaPrio.Active,  // Utiliza el estado activo del objeto recibido.
             };
 
             _context.CatTypePrioritaries.Update(editarReglaP);
