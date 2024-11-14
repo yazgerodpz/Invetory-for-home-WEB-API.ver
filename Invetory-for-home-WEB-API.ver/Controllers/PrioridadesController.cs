@@ -32,6 +32,10 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
         public JsonResult ReadPrioById(int id)
         {
             var QrysResult = _context.CatTypePrioritaries.Find(id);
+            if (QrysResult == null)
+            {
+                return new JsonResult(new { Success = false, Data = QrysResult });
+            }
             return new JsonResult(new { Success = true, Data = QrysResult });
         }
 
