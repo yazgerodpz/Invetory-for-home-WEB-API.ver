@@ -56,6 +56,7 @@ namespace Invetory_for_home_WEB_API.ver.Controllers
             var QrysResult = _context.Items.Find(id);
             if (QrysResult == null)
             {
+                
                 // Devolver la respuesta con el nuevo Item y su relación con CatTypeStock
                 return new JsonResult(new { Success = false, Data = QrysResult });
             }

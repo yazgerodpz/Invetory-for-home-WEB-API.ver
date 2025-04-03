@@ -799,3 +799,7 @@ C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory
 C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory-for-home-WEB-API.ver\obj\Debug\net7.0\Invetory-for-home-WEB-API.ver.pdb
 C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory-for-home-WEB-API.ver\obj\Debug\net7.0\Invetory-for-home-WEB-API.ver.genruntimeconfig.cache
 C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory-for-home-WEB-API.ver\obj\Debug\net7.0\ref\Invetory-for-home-WEB-API.ver.dll
+C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory-for-home-WEB-API.ver\bin\Debug\net7.0\Invetory-for-home-WEB-API.ver.staticwebassets.endpoints.json
+C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory-for-home-WEB-API.ver\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory-for-home-WEB-API.ver\obj\Debug\net7.0\staticwebassets\msbuild.Invetory-for-home-WEB-API.ver.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Yazryr\Desktop\Yaz\Programación\Invetory-for-home-WEB-API.ver\Invetory-for-home-WEB-API.ver\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt

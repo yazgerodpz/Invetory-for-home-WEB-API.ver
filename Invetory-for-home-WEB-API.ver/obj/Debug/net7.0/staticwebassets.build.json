@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "s5FBswXkERVIk/mLo6xq0Ob+0g/f/tXnfkPo0B8bmqg=",
+  "Hash": "qxH7QCbmL49SHnc/7X1klPM6hyGWQmr+fpkqd1YTcJM=",
   "Source": "Invetory-for-home-WEB-API.ver",
   "BasePath": "_content/Invetory-for-home-WEB-API.ver",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

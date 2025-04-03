@@ -2,6 +2,7 @@
 {
     public class Itemdto
     {
+        public int IdIdItem { get; set; }
         public string ItemName { get; set; } = null!;
 
         public int Stock { get; set; }

@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\controllers\\prioridadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\prioridadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:controllers\\empaquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|c:\\users\\yazryr\\desktop\\yaz\\programaci\u00F3n\\invetory-for-home-web-api.ver\\invetory-for-home-web-api.ver\\models\\cattypeprioritary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D9E680-D3BA-46B2-B654-1CBAF042CC5E}|Invetory-for-home-WEB-API.ver.csproj|solutionrelative:models\\cattypeprioritary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 160,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmpaquesController.cs",
-              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmpaquesController.cs",
-              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\EmpaquesController.cs",
-              "RelativeToolTip": "Controllers\\EmpaquesController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwEYAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T06:11:53.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrioridadesController.cs",
-              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PrioridadesController.cs",
-              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\PrioridadesController.cs",
-              "RelativeToolTip": "Controllers\\PrioridadesController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwEYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:12:43.596Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -58,10 +36,46 @@
               "RelativeDocumentMoniker": "Controllers\\InventarioController.cs",
               "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Controllers\\InventarioController.cs",
               "RelativeToolTip": "Controllers\\InventarioController.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwE0AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAQwJIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:02:30.912Z",
+              "WhenOpened": "2025-02-22T02:39:29.672Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatTypePrioritary.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Models\\CatTypePrioritary.cs",
+              "RelativeDocumentMoniker": "Models\\CatTypePrioritary.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Models\\CatTypePrioritary.cs",
+              "RelativeToolTip": "Models\\CatTypePrioritary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:33:07.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:03:58.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Itemdto.cs",
+              "DocumentMoniker": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\DTO\\Itemdto.cs",
+              "RelativeDocumentMoniker": "DTO\\Itemdto.cs",
+              "ToolTip": "C:\\Users\\Yazryr\\Desktop\\Yaz\\Programaci\u00F3n\\Invetory-for-home-WEB-API.ver\\Invetory-for-home-WEB-API.ver\\DTO\\Itemdto.cs",
+              "RelativeToolTip": "DTO\\Itemdto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:03:36.876Z"
             }
           ]
         }
